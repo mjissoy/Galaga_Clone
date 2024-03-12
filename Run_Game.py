@@ -1,11 +1,11 @@
 import pygame as pg
-from Settings import Settings
-from Ship import Ship
-import game_functions as gf
+from Game_Things.Settings import Settings
+from Game_Things.Ship import Ship
+import Game_Things.game_functions as gf
 from pygame.sprite import Group
-from Game_Stats import GameStats
-from Button import Button
-from Scoreboard import Scoreboard
+from Game_Things.Game_Stats import GameStats
+from Game_Things.Button import Button
+from Game_Things.Scoreboard import Scoreboard
 
 def run_game(): 
     pg.init()
