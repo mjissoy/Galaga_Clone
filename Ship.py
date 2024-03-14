@@ -8,7 +8,7 @@ class Ship(Sprite):
         self.screen = screen
         self.gc_settings = gc_settings
 
-        self.image = pygame.image.load("EditionCourseBook\Galaga_Clone\Images\Ship_5.bmp")
+        self.image = pygame.image.load("Images\Ship_5.bmp")
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
