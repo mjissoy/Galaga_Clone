@@ -9,7 +9,7 @@ class Alien(Sprite):
         self.screen = screen
         self.gc_settings = gc_settings
 
-        self.image = pygame.image.load('EditionCourseBook\Galaga_Clone\Images\Ship_4.bmp')
+        self.image = pygame.image.load('Images\Ship_4.bmp')
         self.rect = self.image.get_rect()
 
         self.rect.x = self.rect.width
